@@ -26,10 +26,15 @@
 - 在触发工作流程后，默认`SSH_ACTIONS: true`在 Actions 页面等待执行到`SSH connection to Actions`步骤，会出现下面信息：  
   ***
 -----------------------------------------------------------------------------------
+
 To connect to this session copy and paste the following into a terminal or browser:
+
 CLI: ssh ******@******.tmate.io
+
 URL: https://tmate.io/t/******
+
 TIPS: Run 'touch /tmp/continue' to continue to the next step.
+
 -----------------------------------------------------------------------------------
   ***
 - 复制 SSH 连接命令粘贴到终端内执行，或者复制链接在浏览器中打开使用网页终端，登陆云menuconfig。
